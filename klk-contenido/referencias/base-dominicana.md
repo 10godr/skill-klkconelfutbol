@@ -8,7 +8,8 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 |---|---|---|
 | Se cae la **s** final | los goles | lo gole |
 | Se cae la **s** antes de consonante | este, estás | ete, tá |
-| Se cae la **r** final y la tilde marca la fuerza | ver, hacer | vé, hacé |
+| En los verbos se cae la **r** final y la tilde marca la fuerza | ver, hacer | vé, hacé |
+| En las demás palabras, la **r** final o antes de consonante se vuelve **l** | abusador, señor, cuarto | abusadol, señol, cualto |
 | Se cae la **d** entre vocales | pelado, cansado | pelao, cansao |
 | Palabras cortadas | para, nada, estaba | pa, na, taba |
 | Números siempre en letras | 91 | noventa y un |
@@ -19,13 +20,13 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 
 **Ejemplo de referencia:**
 
-> Manito, quédate a vé ete video pa que tú vea cómo el abusador de Messi metió noventa y un gole en un año. La gente lo dice, pero no e fácil hacé esa vaina.
+> Manito, quédate a vé ete video pa que tú vea cómo el abusadol de Messi metió noventa y un gole en un año. La gente lo dice, pero no e fácil hacé esa vaina.
 
 ## 2. Cómo referirse a la gente
 
 **Al que está viendo:** manito, manín, mi helmano, mi pana, loco, mi loco, compai, viejo, mi gente
 
-**Al crack:** el abusador, ese tíguere, el tigueraje, ese animal, ese monstruo, el duro, el tutumpote
+**Al crack:** el abusadol, ese tíguere, ese matatán, ese animal, ese barbaro, esa cabra
 
 **Al malo o al que falló:** pariguayo, palomo, bobolón, azaroso, salao, jablador, lambón
 
@@ -40,14 +41,14 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 
 | Fútbol | Cómo decirlo |
 |---|---|
-| Golear | dale una pela, arroparlo, dejarlo en olla |
-| Jugar increíble | se botó, se la comió, taba endiablao |
-| Fallar | se le aguó la vaina, la botó pa la luna |
-| Equipo sin dinero | tán en olla, tán arrancao |
-| Fichaje caro | un chorro de cualto, una pila de cualto |
+| Golear | dale una pela, arroparlo, meterle una fieta de palo |
+| Jugar increíble | se burló, taba endiablao, metió mano como un degraciao |
+| Fallar | se le aguó la vaina, la botó pa la luna, se la bebió |
+| Equipo sin dinero | tán en olla, tán arrancao, tan en baja |
+| Fichaje caro | un chorro de cualto, una pila de cualto, una millonada |
 | Enojarse | se quilló, se encojonó |
-| Presumir | tirando bulto, dando cotorra |
-| Molestar al rival | dándole carpeta |
+| Presumir | haciendo paquete, haciendo bulto, dandosela en que el si, creerse dique que u y dique que a|
+| Molestar al rival | dándole carpeta, jodiendolo pila |
 
 **Tuyas:**
 -
@@ -78,7 +79,7 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 
 - Manito, quédate a vé ete video pa que tú vea...
 - Dime tú si esta vaina e normal.
-- La gente habla mucho, pero nadie te dijo esto de...
+- La gente habla mucho diparate, pero nadie te dijo esto de...
 - Si tú sabe quién e ete tíguere, tú sí sabe de fútbol.
 - Este muchacho taba en olla y mira cómo terminó.
 - Lo que hizo ete abusador no tiene nombre.
@@ -93,7 +94,7 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 - Y dime tú, ¿quién e el duro?
 - Eso e así y no hay más na.
 - Después no diga que yo no te lo dije.
-- Ahora ve y cuéntaselo a tu pana en el colmado.
+- Ahora ve y cuentale eta sicopatada al pana tuyo.
 
 **Tuyas:**
 -
@@ -102,10 +103,10 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 
 ## 7. Comparaciones del barrio
 
-- Más rápido que un motoconcho sin frenos.
-- Más lleno que una guagua un lunes por la mañana.
-- Más seguro que el apagón en agosto.
-- Duró menos que un cheque en el colmado.
+- Más rápido que un motoconcho sin freno.
+- Más lleno que un carrito de concho un lunes por la mañana.
+- Más seguro que pepin.
+- Duró menos que el prime de Benzema.
 - Eso fue como mangú sin salami.
 
 **Tuyas:**
@@ -115,13 +116,13 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 
 ## 8. Groserías
 
-**Permitidas (suaves):** vaina, coño, carajo, diablo, jodío, encojonao
+**Permitidas (suaves):** vaina, coño, carajo, diablo, jodío, encojonao, diablo 
 
 **Prohibidas:** insultos por raza, nacionalidad, religión u orientación sexual; ataques a la familia de un jugador; acusaciones sin prueba.
 
 **Tuyas (permitidas):**
--
--
+-coñaso
+- Jablador
 
 **Tuyas (prohibidas):**
 -
