@@ -16,7 +16,7 @@
   }
 
   K.pieza = {
-    duracion: 3,
+    duracion: K.tiempos ? K.tiempos.duracion : 3,
     render(c, t) {
       c.setTransform(1, 0, 0, 1, 0, 0);
       c.clearRect(0, 0, K.W, K.H);

@@ -30,7 +30,17 @@ try {
   page.on("pageerror", (e) => console.error("Error en la escena:", e.message));
   await page.setViewport({ width: 1080, height: 1920 });
   await page.goto(pathToFileURL(path.join(MOTOR, "lienzo.html")).href, { waitUntil: "load" });
-  await page.addScriptTag({ path: path.join(pieza, "escenas.js") });
+  const tiempos = path.join(pieza, "tiempos.json");
+  if (fs.existsSync(tiempos)) {
+    await page.evaluate((datos) => { window.KLK.tiempos = datos; }, JSON.parse(fs.readFileSync(tiempos, "utf8")));
+  }
+  const scripts = (carpetaJs) => (fs.existsSync(carpetaJs)
+    ? fs.readdirSync(carpetaJs).filter((f) => f.endsWith(".js")).sort().map((f) => path.join(carpetaJs, f))
+    : []);
+  // Los videos largos pueden repartir sus escenas en <pieza>/escenas/*.js.
+  for (const js of [...scripts(path.join(MOTOR, "jugadores")), ...scripts(path.join(pieza, "escenas")), path.join(pieza, "escenas.js")]) {
+    await page.addScriptTag({ path: js });
+  }
   const duracion = await page.evaluate(async () => {
     await document.fonts.load('80px "Lilita One"', "ÁÑ¡91");
     await document.fonts.ready;

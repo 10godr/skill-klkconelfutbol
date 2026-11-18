@@ -10,6 +10,11 @@ window.KLK = window.KLK || {};
   K.BORDE = 9;
   K.FUENTE = '"Lilita One", sans-serif';
 
+  // Tiempos reales de la voz (tiempos.json). Sin audio, la boca se mueve siempre.
+  K.tiempos = null;
+  K.frase = (n) => K.tiempos.frases[n - 1];
+  K.hablando = (t) => !K.tiempos || K.tiempos.frases.some((f) => t >= f.inicio && t <= f.fin);
+
   K.clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
   K.lerp = (a, b, p) => a + (b - a) * p;
   K.prog = (t, a, b) => K.clamp((t - a) / (b - a));

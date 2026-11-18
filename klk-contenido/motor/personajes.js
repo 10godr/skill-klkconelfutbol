@@ -181,8 +181,8 @@
     c.restore();
   };
 
-  // Boca que se mueve como si hablara, sin depender todavía de un audio.
-  K.habla = (t, activa = true) => {
+  // La boca se mueve solo mientras suena una frase.
+  K.habla = (t, activa = K.hablando(t)) => {
     if (!activa) return 0;
     return K.clamp(0.42 + Math.sin(t * 19) * 0.32 + Math.sin(t * 31 + 1.3) * 0.26);
   };
