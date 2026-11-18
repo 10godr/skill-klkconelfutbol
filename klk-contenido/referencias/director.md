@@ -26,7 +26,11 @@ Se pueden proponer formatos nuevos si la idea lo pide.
 Usa fuentes de referencia: sitios oficiales de ligas y clubes, FIFA, UEFA, Guinness, Transfermarkt para valores y fichajes, y medios deportivos serios. Si dos fuentes no coinciden, dilo y usa la versión más prudente o descarta el dato. Un rumor nunca se narra como hecho.
 
 ## Generar ideas
-Por defecto, 5 ideas de al menos 4 formatos distintos, sin repetir temas o ganchos del registro. Si hay una fecha en los próximos 30 días, una idea va ligada a ella. Cada idea lleva:
+Por defecto, 5 ideas de al menos 4 formatos distintos, sin repetir temas o ganchos del registro. Si hay una fecha en los próximos 30 días, una idea va ligada a ella.
+
+Prioriza datos poco conocidos. Si un futbolero promedio ya se lo sabe, busca un ángulo más rebuscado o descarta la idea. Un dato raro necesita fuente confirmada igual que cualquier otro.
+
+Cada idea lleva:
 
 - título y formato;
 - gancho exacto en dominicano, tal como se diría en los primeros 2 segundos;
