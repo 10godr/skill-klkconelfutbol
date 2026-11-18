@@ -1,0 +1,13 @@
+{
+  "name": "skill-klk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Motor de animación 2D de KLK con el Fútbol",
+  "scripts": {
+    "preview": "node klk-contenido/motor/render.mjs",
+    "video": "node klk-contenido/motor/render.mjs"
+  },
+  "dependencies": {
+    "puppeteer-core": "23.11.1"
+  }
+}
