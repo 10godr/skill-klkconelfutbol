@@ -1,6 +1,6 @@
 # Voz con ElevenLabs
 
-La voz elegida está en `<skill>/config.local.json`. Si `nombre` está vacío, pregunta cuál usar y guárdala. Candidata por probar: **Matías – Relaxed and Friendly**.
+La voz oficial de todos los videos es **Joan Fermín**, guardada en `<skill>/config.local.json`.
 
 ## Antes de generar
 Muestra los diálogos finales, cuántos caracteres gastarán y pide un "sí" para este guion. Los créditos son limitados, así que no hagas tomas de prueba por tu cuenta.
