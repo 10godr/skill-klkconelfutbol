@@ -28,7 +28,7 @@ Usa `base-dominicana.md` como fuente de vocabulario y prioriza lo que el usuario
 - Puntos y comas marcan las pausas. Pon un punto antes de un dato fuerte.
 
 ## Formato del archivo
-Guarda el guion en `<contenido>/guiones/<pieza>.md` con la plantilla `<skill>/plantillas/guion.md`.
+Guarda el guion en `<contenido>/guiones/<pieza>.md` con la plantilla `<skill>/plantillas/guion.md`. Todo guion lleva un resumen corto de la idea al inicio y 3 captions al final, con la recomendada marcada en la misma caption.
 
 | # | Audio | Diálogo | En pantalla | Dato y fuente |
 |---|---|---|---|---|
