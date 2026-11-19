@@ -35,7 +35,7 @@
     const my = ey + Math.cos(a2) * 90;
     c.lineJoin = "round";
     c.lineCap = "round";
-    [[K.TINTA, 42 + K.BORDE * 2], [d.piel, 42]].forEach(([tono, grosor]) => {
+    [[K.TINTA, 42 + K.BORDE * 2], [d.antebrazo || d.piel, 42]].forEach(([tono, grosor]) => {
       c.strokeStyle = tono;
       c.lineWidth = grosor;
       c.beginPath();
@@ -45,7 +45,7 @@
       c.stroke();
     });
     miembro(c, sx, sy, K.lerp(sx, ex, 0.62), K.lerp(sy, ey, 0.62), 62, d.manga);
-    K.forma(c, (p) => p.arc(mx, my, 35, 0, Math.PI * 2), { relleno: d.piel });
+    K.forma(c, (p) => p.arc(mx, my, d.guante ? 44 : 35, 0, Math.PI * 2), { relleno: d.guante || d.piel });
   }
 
   function camiseta(c, d) {
@@ -69,7 +69,30 @@
     }
     c.restore();
     K.forma(c, trazo, {});
-    K.texto(c, String(d.numero), 0, -292, { tam: 104, color: d.colorNumero, borde: "#ffffff", grosor: 12 });
+    if (d.pecho) d.pecho(c);
+    else K.texto(c, String(d.numero), 0, -292, { tam: 104, color: d.colorNumero, borde: "#ffffff", grosor: 12 });
+    if (d.escudo) escudo(c, d.escudo);
+  }
+
+  // Escudo inventado en el pecho: nunca copia el de un club real.
+  function escudo(c, { fondo, banda }) {
+    const trazo = (p) => {
+      p.moveTo(50, -394);
+      p.lineTo(94, -394);
+      p.lineTo(94, -368);
+      p.quadraticCurveTo(92, -352, 72, -344);
+      p.quadraticCurveTo(52, -352, 50, -368);
+      p.closePath();
+    };
+    K.forma(c, trazo, { relleno: fondo, grosor: 6 });
+    c.save();
+    c.beginPath();
+    trazo(c);
+    c.clip();
+    c.fillStyle = banda;
+    c.fillRect(50, -378, 44, 12);
+    c.restore();
+    K.forma(c, trazo, { grosor: 6 });
   }
 
   function ojo(c, x, mira, parpadeo, R) {
@@ -97,12 +120,12 @@
     c.fill();
   }
 
-  function boca(c, abierta, ancho) {
+  function boca(c, abierta, ancho, dientes) {
     if (abierta < 0.08) {
       K.forma(c, (p) => {
         p.moveTo(-ancho * 0.9, 84);
         p.quadraticCurveTo(0, 116, ancho * 0.9, 84);
-      }, { borde: "#ffffff", grosor: 12 });
+      }, { borde: K.TINTA, grosor: 10 });
       return;
     }
     const alto = 14 + abierta * 34;
@@ -115,6 +138,7 @@
     c.fillRect(-60, 40, 120, 110);
     c.fillStyle = "#ffffff";
     c.fillRect(-60, 92 - alto, 120, 15);
+    if (dientes) dientes(c, 92 - alto);
     c.fillStyle = "#e4566b";
     c.beginPath();
     c.ellipse(0, 92 + alto * 0.9, 34, alto * 0.62, 0, 0, Math.PI * 2);
@@ -149,7 +173,7 @@
       p.moveTo(-10, 28);
       p.quadraticCurveTo(14, 44, -6, 54);
     }, { borde: "#b9764f", grosor: 8 });
-    boca(c, pose.boca, R.bocaAncho);
+    boca(c, pose.boca, R.bocaAncho, d.dientes);
   }
 
   // Medidas de la cara. Cada jugador cambia solo las que lo hacen reconocible.
