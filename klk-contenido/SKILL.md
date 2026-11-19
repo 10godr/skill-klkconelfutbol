@@ -68,7 +68,7 @@ Sin argumentos, muestra el menú de comandos y pregunta qué hacer, sin cargar n
 | `jugador <nombre>` | Crea la caricatura de un jugador |
 | `metricas <pieza> <datos>` | Lee las métricas y dice qué cambiar |
 
-Una `<pieza>` se nombra `reel-01-slug`. Su guion está en `<contenido>/guiones/`, su trabajo en `<contenido>/_taller/<pieza>/` y el video final en `<contenido>/piezas/reels/<pieza>/`.
+Una `<pieza>` se nombra `01-slug`. Su guion está en `<contenido>/guiones/`, su trabajo en `<contenido>/_taller/<pieza>/` y el video final, suelto, en `<contenido>/piezas/<pieza>.mp4`. Si algún día se hace un carrusel, va en su propia carpeta dentro de `<contenido>/piezas/carruseles/`, que se crea solo en ese momento.
 
 ## Producir un video
 
@@ -77,7 +77,7 @@ Una `<pieza>` se nombra `reel-01-slug`. Su guion está en `<contenido>/guiones/`
 3. **Tiempos.** `node "<skill>/motor/audio.mjs" "<taller>" preparar "<contenido>/_entrada/<pieza>"`. La voz manda el ritmo de las escenas.
 4. **Animación.** Copia `<skill>/plantillas/escenas.js` a `<taller>/escenas.js` y escribe las escenas con `animacion.md`.
 5. **Render y revisión.** Haz la pasada de director de `animacion.md` y corrige antes de enseñar el video.
-6. **Mezcla.** `node "<skill>/motor/audio.mjs" "<taller>" mezclar "<taller>/video-sin-audio.mp4" "<contenido>/piezas/reels/<pieza>/<pieza>.mp4"`.
+6. **Mezcla.** `node "<skill>/motor/audio.mjs" "<taller>" mezclar "<taller>/video-sin-audio.mp4" "<contenido>/piezas/<pieza>.mp4"`.
 7. **Entrega.** Da la ruta del video, las captions (`captions.md`) y la hora sugerida (`publicar.md`). Agrega la fila en `registro.md`.
 8. **Cierre.** Si el usuario no pide cambios, recomienda el chat nuevo.
 
