@@ -14,6 +14,7 @@ Entrega 3 opciones muy dominicanas, cada una con un ángulo distinto, y di cuál
 - Mismo acento y mismas groserías suaves del guion, pero que se entienda al leerlo.
 - Los nombres propios y los datos se escriben bien: "Messi", "91 goles".
 - Exactamente 5 hashtags: `#klkconelfutbol` y 4 según el tema, sin repetir siempre los mismos.
+- Todos los hashtags van siempre en minúsculas, también los nombres propios: `#messi`, `#realmadrid`, nunca `#Messi` ni `#RealMadrid`.
 - No preparar respuestas a comentarios.
 
 ## Formato
