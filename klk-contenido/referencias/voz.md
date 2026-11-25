@@ -39,3 +39,7 @@ El comando `audios <pieza>` entrega este mismo bloque a partir del guion.
 - Comprueba que estén todos los números que pide el guion y que no estén vacíos.
 - Cada pieza usa su propia carpeta para no mezclar audios de videos anteriores.
 - Si una frase suena mal, pide o genera solo esa frase de nuevo.
+
+## Pronunciación y ambiente
+- Emil se escribe **"Emíl"** en el texto para la voz; sin tilde sale "Émil". Si lo corean: "¡E mil! ¡E mil!", y ese tramo va al 80 % (atempo 0.8) en vez del 110 %.
+- Las escenas de estadio llevan ambiente, abucheos o rugido de gol. ElevenLabs con esta key no genera efectos: usa la librería de Epidemic Sound del conector Higgsfield y mézclalos bajo la voz en `voz.mp3` entre `preparar` y `mezclar`.
