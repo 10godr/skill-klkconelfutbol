@@ -9,7 +9,7 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 | Se cae la **s** final | los goles | lo gole |
 | Se cae la **s** antes de consonante | este, estás | ete, tá |
 | En los verbos se cae la **r** final y la tilde marca la fuerza | ver, hacer | vé, hacé |
-| En las demás palabras, la **r** final o antes de consonante se vuelve **l** | abusador, señor, cuarto | abusadol, señol, cualto |
+| En las demás palabras, la **r** final o antes de consonante se vuelve **l**. Aplícalo a **todas**, sin excepción | abusador, señor, cuarto, partido, árbitro, carpintero, marzo, turno, verdad | abusadol, señol, cualto, paltido, álbitro, calpintero, malzo, tulno, veldá |
 | Se cae la **d** entre vocales | pelado, cansado | pelao, cansao |
 | Palabras cortadas | para, nada, estaba | pa, na, taba |
 | Números siempre en letras | 91 | noventa y un |
@@ -30,7 +30,7 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 
 **Al malo o al que falló:** pariguayo, palomo, bobolón, azaroso, salao, jablador, lambón
 
-**Al directivo o al árbitro:** el dueño del colmado, el tutumpote, ese señol, el azaroso del pito
+**Al directivo o al árbitro:** el dueño del colmado, ese señol, el azaroso del pito
 
 **Tuyas:**
 -
@@ -63,7 +63,6 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 - ¡Ay mi madre!
 - ¡Fuelte vaina!
 - ¿Tú me entiende?
-- Vacílate eso.
 - Tamo claro.
 - Oye eso, manito.
 - A mí que me registren.
@@ -116,9 +115,13 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 
 ## 8. Groserías
 
-**Permitidas (suaves):** vaina, coño, carajo, diablo, jodío, encojonao, diablo 
+Nivel fuerte, aprobado por el usuario: atraen atención en los primeros segundos.
 
-**Prohibidas:** insultos por raza, nacionalidad, religión u orientación sexual; ataques a la familia de un jugador; acusaciones sin prueba.
+**Permitidas:** vaina, coño, ¡coñazo!, carajo, diablo, jodío, encojonao, mierda, maldita sea, ¡coño e la madre! (como exclamación), de pinga (algo bueno), qué jodienda, singao y mamagüebo (solo para personajes inventados o como reacción).
+
+**Cómo se usan:** como reacción o para los personajes inventados. Nunca como insulto directo a un jugador real con nombre, porque las plataformas le bajan el alcance a eso. En pantalla no va ninguna grosería escrita; solo en la voz.
+
+**Prohibidas:** insultos por raza, nacionalidad, religión u orientación sexual; ataques a la familia de un jugador; acusaciones sin prueba; tutumpote (nadie lo dice en RD).
 
 **Tuyas (permitidas):**
 -coñaso
@@ -131,6 +134,6 @@ Esta es la forma de hablar del narrador. Las frases sembradas son un punto de pa
 ## 9. Frases que suenan falsas
 
 Lo que un dominicano real nunca diría:
--
+- "Vacílate eso" o cualquier forma del verbo vacilar.
 -
 -
