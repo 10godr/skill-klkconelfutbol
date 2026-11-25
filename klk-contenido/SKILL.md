@@ -72,7 +72,7 @@ Una `<pieza>` se nombra `01-slug`. Su guion está en `<contenido>/guiones/`, su 
 
 ## Producir un video
 
-1. **Guion.** Escríbelo con `guion.md` y guárdalo en `<contenido>/guiones/<pieza>.md`. Enséñale la tabla de diálogos al usuario y espera su aprobación o sus cambios. Si edita el archivo, relee solo ese archivo.
+1. **Guion.** Escríbelo con `guion.md` y guárdalo en `<contenido>/guiones/<pieza>.md`. En el chat enseña solo la tabla de diálogos (#, Diálogo y En pantalla). Captions, escenas y fuentes se quedan en el .md y no se repiten en el chat. Espera su aprobación o sus cambios. Si edita el archivo, relee solo ese archivo.
 2. **Audios.** Sigue `voz.md`. Si ElevenLabs falla, entrega el plan B y detente hasta que estén los mp3.
 3. **Tiempos.** `node "<skill>/motor/audio.mjs" "<taller>" preparar "<contenido>/_entrada/<pieza>"`. La voz manda el ritmo de las escenas.
 4. **Animación.** Copia `<skill>/plantillas/escenas.js` a `<taller>/escenas.js` y escribe las escenas con `animacion.md`.
